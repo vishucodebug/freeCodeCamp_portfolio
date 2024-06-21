@@ -217,6 +217,13 @@
     margin: 0 auto;
     margin-bottom: 6rem;
   }
+  .projects-grid a{
+    border-radius: 20px;
+  }
+  .projects-grid a:hover{
+    transform: scale(1.05);
+    transition:0.8s;
+  }
   
   @media (max-width: 30.625em) {
     .projects-section {
@@ -234,6 +241,7 @@
     border-radius: 2px;
   }
   
+  
   .code {
     color: var(--main-gray);
     transition: color 0.3s ease-out;
@@ -247,6 +255,7 @@
     height: calc(100% - 6.8rem);
     width: 100%;
     object-fit: cover;
+    border-radius: 20px;
   }
   
   .project-title {
@@ -325,6 +334,9 @@
   
   .contact-details:hover {
     transform: translateY(8px);
+    color: greenyellow;
+    font-weight: bolder;
+    /* text-shadow: red; */
   }
   
   /* Footer */
